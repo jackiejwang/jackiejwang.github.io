@@ -2,18 +2,40 @@
 <html>
 <head>
 	<title>Jackie Wang Profile</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	<h1>Jackie Wang</h1>
-	<img src="https://lh5.googleusercontent.com/-egMVwz_mN7U/ThPsaFZLbCI/AAAAAAAAAr0/Rm6YyyBpAkQ/w503-h502-no/262682_2231524272592_1382430023_2708637_8253363_n.jpg" />
-	<ul>lived in New York and Philadelphia</ul>
-	<ul>currently in San Francisco</ul>
-	<ul>day job: <a href="https://usa.visa.com/">Visa</a></ul>
-	<ul>likes board games, ultimate frisbee, and tennis</ul>	
+   <header>
+   	<h1>Jackie Wang</h1>
+   	<img src="https://lh5.googleusercontent.com/-egMVwz_mN7U/ThPsaFZLbCI/AAAAAAAAAr0/Rm6YyyBpAkQ/w503-h502-no/262682_2231524272592_1382430023_2708637_8253363_n.jpg" />
+   </header>
 
+   <div class="leftsidebar">
+      <h2>About Me</h2>
+      <h2>Employment</h2>
+      <h2>Education</h2>
+      <h2>Hobbies</h2>
+      <h2>Projects</h2>
+   </div>
+
+   <div class="mainbody">
+      <ul>lived in New York and Philadelphia</ul>
+      <ul>currently in San Francisco</ul>
+      <ul>day job: <a href="https://usa.visa.com/">Visa</a></ul>
+      <ul>likes board games, ultimate frisbee, and tennis</ul> 
+      <ul>Contact me: </ul>
+      <form action="http://formspree.io/jackie.wang.x3@gmail.com"
+      method="POST">
+          <input type="text" name="name" placeholder="name">
+          <input type="email" name="_replyto" placeholder="replyto">
+          <input type="hidden" name="_subject" value="Contact from Github" />
+          <input type="submit" value="Send">
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="http://www.jackiejwang.github.io" />
+      </form>
+   </div>
 <!-- social section -->
-<div id="social">
+<!-- <div id="social">
       <div class="row social-container">
             <ul class="social">
                <li><a href="http://facebook.com/jackiewang"><img src=""><i class="fa fa-facebook"></i></a></li>
@@ -24,7 +46,7 @@
             </ul>
       </div>
 
-   </div>
+   </div> -->
 
 
 
@@ -40,5 +62,3 @@
 
 </html>
 
-
-<!--Create basic portfolio webpage using only html. Include picture, brief bio (2 sentences), links to social media profiles (including github profile). Deploy the page to github pages. (No need to include projects yet, this will be added in future assignments)-->

@@ -1,0 +1,29 @@
+.leftsidebar {
+    float: left;
+    text-align: left;
+    width: 25%;
+    display: block;
+}
+
+.rightsidebar {
+    float: right;
+    width: 25%;
+}
+
+.mainbody {
+    float: center;
+}
+
+header {
+    display: center;
+    text-align: center;
+}
+
+form {
+    display: block;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
